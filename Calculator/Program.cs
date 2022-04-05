@@ -155,7 +155,7 @@
             foreach (char c in talserie)
             {
 
-                if (Char.IsDigit(c) || c==',' || c =='-')
+                if (Char.IsDigit(c) || c ==',')
                 {
                     tempNumb += c;
                 }

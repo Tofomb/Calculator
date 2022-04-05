@@ -66,11 +66,5 @@ namespace CalcTest
             double[] testArray = new double[] { 12.2, 3, 1, 0.1, 5.555 };
             Assert.Equal(testArray, Program.ArrayMaker("ä12,2ädw3d1pp,1hej5,5,5,5"));
         }
-
-        public void ArrayMakerTest2()
-        {
-            double[] testArray = new double[] { 12.2, 3, 1, 0.1, 5.555 };
-            Assert.Equal(testArray, Program.ArrayMaker("ä12,2ädw3d1pp,1hej5,5,5,5"));
-        }
     }
 }
